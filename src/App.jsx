@@ -4,6 +4,7 @@ import Home from "./Frontend/Home.jsx";
 import Login from "./Frontend/Login.jsx";
 import Signup from "./Frontend/Signup.jsx";
 import "./App.css";
+import LoginSuccess from "./Frontend/Loginsuccess.jsx";
 
 const App = () => {
   return (
@@ -13,6 +14,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path= "/login-success" element={<LoginSuccess />} />
+        
       </Routes>
     </Router>
   );

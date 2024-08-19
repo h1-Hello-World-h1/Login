@@ -103,5 +103,9 @@ h1{
  margin: 1rem auto;
  
 }
-
+.success{
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  margin: 2rem auto;
+}
 
