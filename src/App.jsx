@@ -1,9 +1,9 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Frontend/Home';
-import Login from './Frontend/Login';
-import Signup from './Frontend/Signup';
-import './App.css'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Frontend/Home.jsx";
+import Login from "./Frontend/Login.jsx";
+import Signup from "./Frontend/Signup.jsx";
+import "./App.css";
 
 const App = () => {
   return (
