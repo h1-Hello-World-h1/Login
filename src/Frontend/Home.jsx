@@ -6,14 +6,17 @@ const Home = () => {
   return (
     <div>
         <div className='loginfront'>
+          <div className='welcome'>
       <h1>Welcome</h1>
       <Link to="/login">
-        <button>Login</button>
+        <button className='logbtn'>Login</button>
       </Link>
       <Link to="/signup">
-        <button>Sign Up</button>
+        <button className='signbtn'>Sign Up</button>
       </Link>
       </div>
+      </div>
+      
     </div>
   );
 };

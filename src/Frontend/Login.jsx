@@ -43,7 +43,7 @@ const Login = () => {
       <div className="loginfront">
         <h2 className="h2">Login</h2>
         {error && <p style={{ color: "red" }}>{error}</p>}
-        <div className="spacininside">
+        <div className="spacinginside">
         <form onSubmit={handleSubmit}>
           <div className="userinput">
             <label htmlFor="email">Email:</label>
