@@ -43,6 +43,7 @@ const Signup = () => {
       <div className="loginfront">
         <h2 className="h2">Sign Up</h2>
         {error && <p style={{ color: "red" }}>{error}</p>}
+        <div className="spacinginside">
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="username">Username:</label>
@@ -78,6 +79,7 @@ const Signup = () => {
             Sign Up
           </button>
         </form>
+        </div>
         <p>
           Already have an account? <Link to="/login">Login here</Link>
         </p>
