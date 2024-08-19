@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Define routes for each component */}
+        
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
