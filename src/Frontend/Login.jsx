@@ -1,13 +1,12 @@
 import "../App.css";
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { login } from "./services/api.js";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,7 +23,7 @@ const Login = () => {
       localStorage.setItem("userId", response.data.userId);
 
       // Weiterleitung nach erfolgreichem Login, z.B. zur Startseite
-      navigate("/");
+      //navigate("/");
     } catch (error) {
       console.error("Fehler beim Einloggen:", error);
       setError("Ungültige Anmeldedaten");
